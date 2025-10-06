@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>إنشاء حساب</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="auth-body">
+
+  <div class="auth-card animate__animated animate__fadeInDown">
+    <h2>تسجيل حساب جديد</h2>
+    <form class="auth-form">
+      
+      <div class="input-group">
+        <i class="fas fa-user"></i>
+        <input type="text" placeholder="الاسم الكامل" required>
+      </div>
+
+      <div class="input-group">
+        <i class="fas fa-envelope"></i>
+        <input type="email" placeholder="البريد الإلكتروني" required>
+      </div>
+
+      <div class="input-group">
+        <i class="fas fa-lock"></i>
+        <input type="password" placeholder="كلمة المرور" required>
+      </div>
+
+      <div class="input-group">
+        <i class="fas fa-lock"></i>
+        <input type="password" placeholder="تأكيد كلمة المرور" required>
+      </div>
+
+      <button type="submit" class="auth-btn register">تسجيل</button>
+      <p class="switch">لديك حساب بالفعل؟ <a href="../vscode/login.html">سجّل دخول</a></p>
+
+      <!-- Social login -->
+      <div class="social-login">
+        <p>أو أنشئ حساب عبر</p>
+        <a href="#" class="social-btn facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-btn instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-btn google"><i class="fab fa-google"></i></a>
+      </div>
+
+    </form>
+  </div>
+
+</body>
+</html>
+

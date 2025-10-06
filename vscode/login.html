@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>تسجيل الدخول</title>
+  <link rel="stylesheet" href="style.css">
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="auth-body">
+
+  <div class="auth-card animate__animated animate__fadeInDown">
+    <h2>تسجيل الدخول</h2>
+    <!-- تعديل هنا: إضافة action لصفحة النجاح -->
+    <form class="auth-form" action="../vscode/success.html" method="get">
+      <div class="input-group">
+        <i class="fas fa-envelope"></i>
+        <input type="email" placeholder="البريد الإلكتروني">
+      </div>
+
+      <div class="input-group">
+        <i class="fas fa-lock"></i>
+        <input type="password" placeholder="كلمة المرور">
+      </div>
+
+      <button type="submit" class="auth-btn login">دخول</button>
+      <p class="switch">ليس لديك حساب؟ <a href="../vscode/register.html">سجل الآن</a></p>
+    </form>
+  </div>
+
+</body>
+</html>
+
+
